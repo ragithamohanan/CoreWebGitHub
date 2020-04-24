@@ -32,7 +32,7 @@ namespace ACoreApplication
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello to Ragitha's Github World!");
+                    await context.Response.WriteAsync("Hello to Ragitha's Github World AGAIN!");
                 });
             });
         }
